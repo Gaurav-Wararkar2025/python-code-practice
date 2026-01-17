@@ -9,4 +9,5 @@ def hide_vowels(s):
             result += ch
 
     return result
+
 print(hide_vowels("Hello World!"))  # Example usage
