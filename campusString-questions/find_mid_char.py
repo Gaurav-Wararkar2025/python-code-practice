@@ -5,3 +5,4 @@ def get_middle(s):
         return s[n//2]
     else:
         return s[(n//2)-1:(n//2)+1]
+print(get_middle("testing"))  # Example usage
