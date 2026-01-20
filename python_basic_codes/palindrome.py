@@ -10,6 +10,7 @@ if temp==rev:
   print(f"{rev} is palindrome number")
 else:
   print(f"{rev} is not a palindrome number")
+  
 
   """
   def check_palindrome():
