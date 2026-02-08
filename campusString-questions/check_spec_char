@@ -1,0 +1,12 @@
+s = input("Enter string: ")
+special = False
+
+for ch in s:
+    if not ch.isalnum() and ch != " ":
+        special = True
+        break
+
+if special:
+    print("Contains special characters")
+else:
+    print("No special characters")
